@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+
+  background-color: hsl(230, 17%, 14%);
+  font-family: 'Inter', sans-serif;
+}
+
+.topContentBg {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.main-container {
+ 
+
+  width: 100%;
+
+  .top-contents {
+    width: 100%;
+
+    background-color: hsl(232, 19%, 15%);
+    padding: 15px;
+
+    height: 200px;
+
+    border-radius: 0 0 30px 30px;
+    .container {
+      width: 100%;
+      h1 {
+        font-size: 1.5rem;
+        color: hsl(0, 0%, 100%);
+      }
+
+      .dashboardHeader {
+        color: hsl(230, 17%, 14%);
+      }
+
+      h4 {
+        font-size: 0.9rem;
+        color: hsl(228, 12%, 44%);
+      }
+      .line {
+        border: 1px solid  hsl(228, 12%, 44%);
+        height: 1px;
+
+        margin: 20px 0;
+      }
+    }
+    .theme-section {
+      width: 100%;
+      .scroller {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+  
+        gap: 10px;
+
+          p {
+              color: hsl(228, 12%, 44%);
+          }
+          .ball-container {
+            position: relative;
+            width: 53px;
+            height: 25px;
+
+            background-color: hsl(163, 72%, 41%);
+
+            border-radius: 20px;
+
+            transition: all ease-in-out 280ms;
+
+            cursor: pointer;
+
+            .ball {
+                position: absolute;
+
+                top: 2px;
+                left: 3px;
+                width: 20px;
+                height: 20px;
+
+                border-radius: 50%;
+
+                background-color: hsl(230, 17%, 14%);
+
+                cursor: pointer;
+
+              }
+              .toggleBallPosition {
+                position: absolute;
+                right: 2px;
+                left: unset;
+
+                background-color: hsl(0, 0%, 100%);
+              }
+           }
+           .ball-container-bg {
+            background-color: hsl(230, 22%, 74%);
+          
+          }
+      }
+  }
+  }
+
+  .topSecBg {
+    background-color: hsl(225, 100%, 98%);
+  }
+}
+
+.main-content {
+  padding: 15px;
+}
+.social-media-icons {
+  width: 100%;
+  margin-top: -50px;
+  .row {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+
+    align-content: center;
+
+    .icon-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      gap: 5px;
+
+      .name {
+        color:  hsl(228, 34%, 66%);
+        background-color: unset;
+      }
+
+      .toggledP {
+        color:  hsl(228, 12%, 44%);
+      }
+    }
+    
+    h1 {
+      margin: 10px 0 2px;
+    }
+
+    .toggledNumbers {
+      color:  hsl(230, 17%, 14%);
+    }
+
+    .toggledAudience {
+      color:  hsl(228, 12%, 44%);
+    }
+
+    
+    .bottom-stats {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 100%;
+      
+      margin: 10px 0;
+      
+      gap: 5px;
+      
+      p {
+        color: hsl(163, 72%, 41%);
+      }
+    }
+    
+    .current-youtube-stats {
+      p {
+        color: hsl(356, 69%, 56%);
+      }
+    }
+    .facebook-border {
+      border-top: 4px solid hsl(208, 92%, 53%);
+    }
+
+    .twitter-border {
+      border-top: 4px solid hsl(203, 89%, 53%);
+    }
+
+    .youtube-border {
+      border-top: 4px solid hsl(348, 97%, 39%);
+    }
+
+    .insta-border {
+      border-top: 5px solid;
+      border-radius: 5px;
+      border-image: linear-gradient(45deg,hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
+    }
+  }
+    .card {
+        background-color:  hsl(228, 28%, 20%);
+
+        text-align: center;
+
+        padding: 20px 30px;
+
+        border-radius: 5px;
+        
+        color: white;
+
+        transition: all ease-in-out 250ms;
+
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(60,60,60,0.5);
+        }
+    }
+
+    .toggledCard {
+      background-color: hsl(227, 47%, 96%);
+    }
+}
+
+.daily-overview {
+  width: 100%;
+  margin: 20px 0;
+
+  h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .overview-container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+
+    align-content: center;
+
+    width: 100%;
+
+
+    .overview-card {
+      background-color:  hsl(228, 28%, 20%);
+
+      text-align: center;
+
+      padding: 20px 25px;
+
+      border-radius: 5px;
+        
+      color: white;
+      transition: all ease-in-out 250ms;
+
+      &:hover {
+        background-color: rgba(60,60,60,0.5);
+      }
+
+      .heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+          font-size: 14px;
+        }
+
+        .toggledP {
+          color:  hsl(228, 12%, 44%);
+        }
+        
+      }
+
+      .page-views {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-top: 10px;
+        .toggledNumbers {
+          color:  hsl(230, 17%, 14%);
+        }
+    
+      }
+
+      .retweets {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-top: 10px;
+        gap: 5px;
+
+        .toggledNumbers {
+          color:  hsl(230, 17%, 14%);
+        }
+    
+      }
+
+      .likes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-top: 10px;
+
+        .toggledNumbers {
+          color:  hsl(230, 17%, 14%);
+        }
+    
+      }
+  
+      .views {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-top: 10px;
+        gap: 5px;
+
+        .toggledNumbers {
+          color:  hsl(230, 17%, 14%);
+        }
+    
+      }
+      .percentage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 10px;
+        gap: 5px;
+
+        .toggledNumbers {
+          color:  hsl(230, 17%, 14%);
+        }
+    
+      }
+    }
+    .toggledCard {
+      background-color: hsl(227, 47%, 96%);
+    }
+  }
+}
+
+.green-text {
+  color: hsl(163, 72%, 41%);
+}
+.red-text {
+  color: hsl(356, 69%, 56%);
+}
+
+/* Toggle classes*/
+
+@media (min-width: 768px) {
+  @import "desktop";
+}

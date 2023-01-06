@@ -1,0 +1,47 @@
+.main-content {
+    padding: 10px 83px;
+}
+.main-container {
+
+    .top-contents {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 10px 83px;
+        width: 100%;
+
+        .container {
+
+            h1 {
+                font-size: 1.6rem;
+            }
+            .line {
+                display: none;
+            }
+        }
+
+        .theme-section {
+            .scroller {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            }
+        }
+    }
+  }  
+
+
+.social-media-icons {
+    .row {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 15px;
+      }
+}
+
+.daily-overview {
+    .overview-container {
+        grid-template-columns: repeat(4,1fr);
+    }
+}
