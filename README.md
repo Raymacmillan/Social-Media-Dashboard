@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Raymacmillan/Social-Media-Dashboard](https://github.com/Raymacmillan/Social-Media-Dashboard)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://raymacmillan.github.io/Social-Media-Dashboard/](https://raymacmillan.github.io/Social-Media-Dashboard/)
 
 ## My process
 
